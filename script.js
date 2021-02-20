@@ -39,7 +39,7 @@ const showPopUp = function() {
 
     cancelButton.addEventListener('click', ()=> {
         popUp.remove();
-        this.parentElement.style.border = '1px solid black';
+        this.parentElement.style.border = '1px solid #482ff7';
         this.parentElement.children[0].style.display = 'block';
     });
 
@@ -48,7 +48,7 @@ const showPopUp = function() {
         new Book(titleInput.value, authorInput.value, pagesInput.value, readStatus).build();
 
         popUp.remove();
-        this.parentElement.style.border = '1px solid black';
+        this.parentElement.style.border = '1px solid #482ff7';
         this.parentElement.children[0].style.display = 'block';
     });
 };
