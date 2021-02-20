@@ -13,14 +13,14 @@ html {
 body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(245, 245, 245);
+    background-color: white;
 }
 .site-heading {
     color: #482ff7;
     margin: 5rem 0;
     text-align: center;
-    font-size: 5rem;
-    font-weight: 300;
+    font-size: 7rem;
+    font-weight: 200;
 }
 
 .library {
@@ -128,11 +128,11 @@ body {
 .main__heading {
     text-align: center;
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 200;
     position: absolute;
     top: -3rem;
     left: 2rem;
-    background-color: rgb(245, 245, 245);
+    background-color:white;
     padding: 1rem;
     color: #482ff7;
 
